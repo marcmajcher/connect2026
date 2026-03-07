@@ -52,9 +52,9 @@ const cats = {
 	"Keyboard Characters": ["bogus41", "A", "B", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "T", "U", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "`", "-", "=", "ESC", "TAB", "SHIFT", "CTRL", "ALT", "[", "]", "\\", ";", "'", ",", ".", "/", "ENTER"],
 	"Weather Words": ["bogus42", "Breezy", "Calm", "Cloudy", "Cold", "Drizzle", "Fair", "Fog", "Freezing", "Flurry", "Foggy", "Frost", "Gale", "Gusty", "Hazy", "Humid", "Hail", "Hot", "Hurricane", "Icy", "Lightning", "Muggy", "Misty", "Moist", "Monsoon", "Nor'easter", "Overcast", "Rainy", "Rainbow", "Sleet", "Snowy", "Slush", "Stormy", "Smog", "Squall", "Thunderstorm", "Tornado", "Typhoon", "Windy", "Warm", "Whiteout", "Sunny", "Dry", "Clear", "Blizzard", "Heatwave", "Downpour", "Cool", "Chilly"],
 	"Inventions": ["bogus43", "Light bulb", "Electricity", "World Wide Web", "Internal combustion engine", "Steam engine", "Compass", "Printing press", "Gunpowder", "Television", "Telephone", "Airplane", "Parachute", "Microwave oven", "Radio", "The Wheel", "The computer", "Bone tools", "Harpoons", "Bow-and-arrow", "Sewing needle", "Shoes", "Mortar and pestle", "Rope", "Ceramics", "Sliced bread", "Fermentation", "Plumbing", "Public sanitation", "Crossbow", "Currency", "Lightning rod", "Catapult", "Paper", "Double-entry bookkeeping", "Toothbrush", "Telescope", "Cotton gin", "Food canning", "Artificial fertilizer", "Pasteurization", "Stainless steel", "Radiocarbon dating", "Global Positioning System", "Cellular phone", "Search engine", "Bitcoin", "mRNA vaccines"],
-	"Legal Doctrines": ["bogus44","Abatement ab initio", "Abstention", "Act of state", "Attractive nuisance", "Aggregate effects", "Assignment of income", "Blue pencil", "Born secret", "Caveat emptor", "De minimis", "Cash equivalence", "Privity", "Res judicata", "Eggshell skull", "Erie", "Estoppel", "Ex turpi causa non oritur actio", "Exhaustion of remedies", "Fair use", "First-sale", "Forum non conveniens", "Ignorantia juris non excusat", "Major questions", "Last clear chance", "Ker-Frisbie", "Internal affairs", "Chances", "Colourability", "Equivalents", "Exoneration of Liens", "Foreign Equivalents", "Indivisibility", "Inherency", "International Exhaustion", "Discovery", "Dangerous proximity", "Correlative rights", "Laches", "Merger", "Necessity", "Repair and reconstruction", "Tenure", "Stare decisis", "Res Ipsa Loquitur", "Comparative Negligence", "Unconscionability", "Ancillary Powers", "Pleasure", "Territorial Nexus", "Contra Proferentem", "Consideration"],
-	"Poets": ["bogus45","Robert Frost", "E. E. Cummings", "T. S. Eliot", "Dante", "Homer", "Maya Angelou", "Emily Dickinson", "Walt Whitman", "Edgar Allan Poe", "William Shakespeare", "Sylvia Plath", "Pablo Neruda", "Langston Hughes", "William Blake", "William Wordsworth", "John Keats", "William Butler Yeats", "Elizabeth Barrett Browning", "Rudyard Kipling", "Oscar Wilde", "Henry Longfellow", "John Milton", "Sappho", "Lord Byron", "Percy Shelly", "Alfred Tennyson", "Ralph Waldo Emerson", "W. H. Auden", "Robert Burns", "Allen Ginsburg", "Ogden Nash", "Phillip Larkin", "Khalil Gibran", "Rainer Maria Rilke", "Dorothy Parker", "Chaucer", "Virgil", "Edmund Spenser", "John Donne", "Alexander Pope", "Samuel Coleridge", "Robert Browning", "Wallace Stevens", "John Dryden", "Ezra Pound", "Thomas Hardy", "John Ashbery"],
-	"one more": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46]
+	"Legal Doctrines": ["bogus44", "Abatement ab initio", "Abstention", "Act of state", "Attractive nuisance", "Aggregate effects", "Assignment of income", "Blue pencil", "Born secret", "Caveat emptor", "De minimis", "Cash equivalence", "Privity", "Res judicata", "Eggshell skull", "Erie", "Estoppel", "Ex turpi causa non oritur actio", "Exhaustion of remedies", "Fair use", "First-sale", "Forum non conveniens", "Ignorantia juris non excusat", "Major questions", "Last clear chance", "Ker-Frisbie", "Internal affairs", "Chances", "Colourability", "Equivalents", "Exoneration of Liens", "Foreign Equivalents", "Indivisibility", "Inherency", "International Exhaustion", "Discovery", "Dangerous proximity", "Correlative rights", "Laches", "Merger", "Necessity", "Repair and reconstruction", "Tenure", "Stare decisis", "Res Ipsa Loquitur", "Comparative Negligence", "Unconscionability", "Ancillary Powers", "Pleasure", "Territorial Nexus", "Contra Proferentem", "Consideration"],
+	"Poets": ["bogus45", "Robert Frost", "E. E. Cummings", "T. S. Eliot", "Dante", "Homer", "Maya Angelou", "Emily Dickinson", "Walt Whitman", "Edgar Allan Poe", "William Shakespeare", "Sylvia Plath", "Pablo Neruda", "Langston Hughes", "William Blake", "William Wordsworth", "John Keats", "William Butler Yeats", "Elizabeth Barrett Browning", "Rudyard Kipling", "Oscar Wilde", "Henry Longfellow", "John Milton", "Sappho", "Lord Byron", "Percy Shelly", "Alfred Tennyson", "Ralph Waldo Emerson", "W. H. Auden", "Robert Burns", "Allen Ginsburg", "Ogden Nash", "Phillip Larkin", "Khalil Gibran", "Rainer Maria Rilke", "Dorothy Parker", "Chaucer", "Virgil", "Edmund Spenser", "John Donne", "Alexander Pope", "Samuel Coleridge", "Robert Browning", "Wallace Stevens", "John Dryden", "Ezra Pound", "Thomas Hardy", "John Ashbery"],
+	"one more": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
 };
 
 checkCategories();
@@ -74,7 +74,6 @@ function finishCategory(b) {
 	b.disabled = true;
 	b.style.background = stringToLightColor(b.category);
 }
-
 
 function saveState() {
 	localStorage.clear();
@@ -165,18 +164,9 @@ function setUpBoard() {
 					document.getElementById("score").textContent = score;
 					// Remove the button for the eliminated word.
 					secondbut.title = '';
-					// if (currentWordIndex < wordlist.length) {
-					//  secondbut.textContent = wordlist[currentWordIndex][0];
-					//  secondbut.category = wordlist[currentWordIndex][1];
-					// secondbut.cluster = [secondbut.textContent];
-					//  currentWordIndex += 1;
-					// } else {
 					secondbut.textContent = '';
 					secondbut.disabled = true;
-
-					// Remove not just the button but the entire <td>.
 					secondbut.parentElement.remove();
-					// }
 
 				} else {
 					mistakes = mistakes + 1;
@@ -205,7 +195,7 @@ function setUpBoard() {
 					selected = 0;
 				}
 				saveState();
-				if (score == num_entries * (num_entries-1)) {
+				if (score == num_entries * (num_entries - 1)) {
 					window.alert("You win!!");
 					startFireworks();
 				}
@@ -219,7 +209,6 @@ function setUpBoard() {
 
 	document.getElementById("board").appendChild(table);
 }
-
 
 function loadState() {
 	s = localStorage.getItem('score');
@@ -263,7 +252,6 @@ function loadState() {
 		cells_to_remove[i].remove();
 	}
 }
-
 
 // helper functions
 function stringToLightColor(str) {
