@@ -9,7 +9,6 @@ const wordlist = [];
 
 // The categories
 const cats = {
-
 	"Activists": ["Mother Jones", "Toussaint Louverture", "Amílcar Cabral", "Rosa Parks", "Harriet Tubman", "Leo Tolstoy", "Lech Wałęsa", "Kwame Nkrumah", "Gloria Steinem", "Martin Luther King Jr.", "W. E. B. Du Bois", "Emmeline Pankhurst", "Jane Addams", "Nelson Mandela", "Karl Marx", "Fannie Lou Hamer", "Andrei Sakharov", "Simone de Beauvoir", "Audre Lorde", "Mahatma Gandhi", "Rosa Luxemburg", "Frederick Douglass", "Thomas Sankara", "Eugene V. Debs", "Ida B. Wells", "Angela Davis", "Susan B. Anthony", "Chico Mendes", "Frantz Fanon", "Dorothy Day", "César Chávez", "Václav Havel", "Sojourner Truth", "bell hooks", "Ella Baker", "John Lewis", "Rachel Carson", "Hannah Arendt", "A. Philip Randolph", "Wangari Maathai", "Mary Wollstonecraft", "Thich Nhat Hanh", "Malcolm X", "Greta Thunberg", "William Lloyd Garrison", "Friedrich Engels"],
 	"Cities in Michigan": ["Detroit", "Grand Rapids", "Sterling Heights", "Ann Arbor", "Lansing", "Dearborn", "Livonia", "Macomb", "Westland", "Farmington Hills", "Flint", "Wyoming", "Kalamazoo", "Pontiac", "Taylor", "Dearborn Heights", "St. Clair Shores", "Royal Oak", "Kentwood", "Battle Creek", "Roseville", "Chesterfield", "East Lansing", "Saginaw", "Midland", "Lincoln Park", "Muskegon", "Eastpointe", "Bay City", "Bedford", "Jackson", "Burton", "Southgate", "Oak Park", "Port Huron", "Madison Heights", "Allen Park", "Hamtramck", "Inkster", "Norton Shores", "Wyandotte", "Frenchtown", "Mount Pleasant", "Ypsilanti", "Ferndale", "Trenton"],
 	"Animorph Titles": ["Invasion", "Visitor", "Encounter", "Message", "Predator", "Capture", "Stranger", "Secret", "Android", "Forgotten", "Reaction", "Andalite Chronicles", "Elfangor's Journey", "Alloran's Choice", "An Alien Dies", "Warning", "Underground", "Decision", "Departure", "Discovery", "Hork-Bajir Chronicles", "Pretender", "Suspicion", "Extreme", "Exposed", "Experiment", "Sickness", "Reunion", "Conspiracy", "Separation", "Illusion", "Prophecy", "Proposal", "Visser", "Mutation", "Weakness", "Familiar", "Unexpected", "Revelation", "Deception", "Resistance", "Ellimist Chronicles", "Diversion", "Ultimate", "Absolute", "Sacrifice"],
@@ -56,7 +55,6 @@ const cats = {
 	"Types of Bread": ["Arepa", "Bagel", "Baguette", "Bannock", "Batard", "Bauernbrot", "Boule", "Brioche", "Brotchen", "Challah", "Chapati", "Ciabatta", "Cornbread", "Dinner roll", "Flatbread", "Focaccia", "Hamburger bun", "Hot dog bun", "Injera", "Johnnycake", "Khubz", "Kifli", "Kulcha", "Laffa", "Lembas", "Mantou", "Marble rye", "Matzo", "Miche", "Milk bun", "Monkey bread", "Naan", "Pane carasau", "Panettone", "Paratha", "Parotta", "Paska", "Pita", "Pullman loaf", "Pumpernickel", "Roggenbrot", "Scotch baps", "Shaobing", "Sourdough", "Tortilla", "Tsoureki"],
 	"Vehicles": ["Aircraft carrier", "Ambulance", "Bicycle", "Cable car", "Canoe", "Covered wagon", "Cruise ship", "Dirigible", "Dog sled", "Dragster", "Dump truck", "Dune buggy", "Ferry", "Fire engine", "Fishing boat", "Forklift", "Freight train", "Garbage truck", "Go-kart", "Golf cart", "Helicopter", "Horse carriage", "Hot air balloon", "Hovercraft", "Jet ski", "Kayak", "Lifeboat", "Locomotive", "Lunar rover", "Monorail", "Motorcycle", "Pickup truck", "Rickshaw", "Rowboat", "Sailboat", "Scooter", "Skateboard", "Snowmobile", "Speedboat", "Stagecoach", "Steamroller", "Submarine", "Tractor", "Train", "Tuk-tuk", "Yacht"],
 	"Video Game Consoles": ["", "Magnavox Odyssey", "Odyssey 2", "Atari 2600", "Fairchild Channel F", "Bally Astrocade", "ColecoVision", "Intellivision", "Vectrex", "Emerson Arcadia 2001", "Nintendo Entertainment System", "Super Nintendo", "Nintendo 64", "Nintendo GameCube", "Wii", "Nintendo Switch", "Game Boy Advance", "Nintendo DS", "Sega Genesis", "Sega Dreamcast", "Sony PlayStation", "Xbox 360", "TurboGrafx-16", "Neo Geo", "WonderSwan", "SwanCrystal", "Apple Pippin", "Gizmondo", "N-Gage", "Ouya", "Nvidia Shield", "Playdate", "Evercade", "Polymega", "Speak & Spell", "Little Professor", "Mattel Aquarius", "LeapPad", "Microvision", "Merlin handheld", "3DO Interactive Multiplayer", "Amstrad GX4000", "FM Towns Marty", "Hyperscan", "Game Gear", "Atari Lynx"],
-
 };
 
 checkCategories();
@@ -97,7 +95,7 @@ function saveState() {
 }
 
 function putWordsInBoard() {
-	// shuffleArray(wordlist);
+	shuffleArray(wordlist);
 	var currentWordIndex = 0;
 	var table = document.getElementById("the_table");
 	for (let i = 0, row; row = table.rows[i]; i++) {
